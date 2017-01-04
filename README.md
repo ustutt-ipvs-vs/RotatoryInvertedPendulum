@@ -10,9 +10,9 @@ The angle of the pendulum is measured by a wireless IMU from the [BlueIMU projec
 
 The following images show our prototype of the rotatory inverted pendulum. On the left hand side, you see the stepper motor connected through a stepper motor driver to the Arduino Due to control the motor acceleration, and the Raspberry Pi implementing the PID controllers. On the right hand side, you see the rotatory inverted pendulum with the IMU mounted on the pendulum:
 
-![Rotatory Inverted Pendulum](images/rotatory_inverted_pendulum_2.jpg)
+![Rotatory Inverted Pendulum](/images/rotatory_inverted_pendulum_2.jpg)
 
-![Rotatory Inverted Pendulum](images/rotatory_inverted_pendulum_1.jpg)
+![Rotatory Inverted Pendulum](/images/rotatory_inverted_pendulum_1.jpg)
 
 Two PID controllers control the angle of the pendulum and the the rotation speed of the pendulum around the axis, respectively. The setpoint for the rotation speed is zero, i.e., the base should stand still. The speed is indirectly controlled by the second PID controller by controlling the setpoint of the angle of the pendulum controlled by the first PID controller. Then, the first PID controller controlling the angle of the pendulum has to accelerate the rotation to keep the pendulum at the given angle, thus, changing the rotation speed.      
 
