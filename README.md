@@ -274,5 +274,7 @@ The controller program will stop the motor and terminate if the pendulum angle i
 
 # Licenses and Acknowledgements
 
+The Rotatory Inverted Pendulum code is licensed under the Apache 2.0 license.
+
 This software includes code developed as part of [BlueIMU project](https://github.com/duerrfk/BlueIMU) by Frank Duerr.
 
